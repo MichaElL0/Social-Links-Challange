@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    background-color:  hsl(0, 0%, 8%);
+    min-height: 100vh;
+
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+.green {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.header-info h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    font-weight: 600;
+}
